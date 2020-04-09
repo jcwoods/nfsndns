@@ -1,0 +1,8 @@
+This is a script which updates the address associated with a host entry on
+NearlyFreeSpeech (NFS.N).  I run mine from /etc/cron.hourly.
+
+Be sure to fix the global user, key, domain, and subdomain values near the
+top of the script.  You can get your API key through a NFS.N service request.
+
+Originally posted here: https://www.mitsake.net/2016/04/nfsn-and-ddns-take-2/
+- Modified to include syslog messages to document checks/updates
